@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto:wght@100;400;700&display=swap');
+
+/* font
+font-family: 'Orbitron', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+/* 화면 초기화 */
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
