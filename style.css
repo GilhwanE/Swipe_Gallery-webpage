@@ -89,3 +89,74 @@ a {
   opacity: 0.4;
   transition: 1s;
 }
+
+.swiper-wrapper .swiper-slide-active .inner {
+  opacity: 1;
+  box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.8);
+}
+
+.swiper-wrapper .swiper-slide .inner::before,
+.swiper-wrapper .swiper-slide .inner::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  background: #fff;
+}
+@keyframes ani {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  1% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.4);
+  }
+}
+.wrap .swiper-wrapper .swiper-slide-active .inner::before {
+  animation: ani 1s ease 1;
+}
+.wrap .swiper-wrapper .swiper-slide-active .inner::after {
+  animation: ani 1s ease 0.3s 1;
+}
+
+.wrap .swiper-button-prev {
+  bottom: 50px;
+  right: 100px;
+  left: auto;
+  top: auto;
+  filter: grayscale(100%) brightness(3);
+  transform: scale(0.5);
+}
+.wrap .swiper-button-next {
+  bottom: 50px;
+  right: 60px;
+  left: auto;
+  top: auto;
+  filter: grayscale(100%) brightness(3);
+  transform: scale(0.5);
+}
+
+.wrap .swiper-pagination-fraction {
+  top: 50px;
+  right: 50px;
+  left: auto;
+  bottom: auto;
+  width: auto;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 16px;
+  color: #eee;
+  letter-spacing: 1px;
+}
+
+.wrap .swiper-pagination-fraction span:nth-of-type(1) {
+  font-size: 28px;
+  color: #fff;
+}

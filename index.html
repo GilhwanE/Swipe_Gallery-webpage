@@ -69,6 +69,14 @@
         centeredSlides: true,
         speed: 1000,
         direction: 'horizontal',
+        effect: 'coverflow',
+        coverflowEffect: {
+          rotate: 50,
+          stretch: -100, // 점점 벌어짐
+          depth: 400, // 원근감
+          modifier: 1, // 배수
+          slideShadows: false,
+        },
       });
     </script>
   </body>
