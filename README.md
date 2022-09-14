@@ -2,10 +2,10 @@
 
 
 ## 완성화면 🖥
-### PC
+### PC(1920해상도)
 <img width="1386" alt="스크린샷 2022-09-14 18 13 47" src="https://user-images.githubusercontent.com/63918911/190113584-465e471c-c241-4ede-b53e-4e8d7f7cabc3.png">
 
-### Mobile
+### Mobile(450해상도 이하)
 <img width="359" alt="스크린샷 2022-09-14 18 16 26" src="https://user-images.githubusercontent.com/63918911/190114119-82cae271-ab55-4529-a5b2-825da3081952.png">
 
 ### 주요기능 🎁
