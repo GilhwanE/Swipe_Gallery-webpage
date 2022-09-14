@@ -10,3 +10,13 @@
 
 ### 주요기능 🎁
 - Swiper 기능을 이용한 Gallery UI 페이지
+- ``
+effect: 'coverflow',
+        coverflowEffect: {
+          rotate: 50,    // 회전각
+          stretch: -100, // 점점 벌어짐
+          depth: 400, // 원근감
+          modifier: 1, // 배수
+          slideShadows: false, // 그림자
+        },
+``
