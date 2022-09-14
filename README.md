@@ -10,6 +10,3 @@
 
 ### 주요기능 🎁
 - Swiper 기능을 이용한 Gallery UI 페이지
-
-### ㅇ
-<img width="1386" alt="스크린샷 2022-09-14 18 13 47" src="https://user-images.githubusercontent.com/63918911/190113584-465e471c-c241-4ede-b53e-4e8d7f7cabc3.png"
